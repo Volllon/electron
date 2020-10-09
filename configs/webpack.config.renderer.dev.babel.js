@@ -118,13 +118,10 @@ export default merge(baseConfig, {
         test: /^((?!\.global).)*\.(scss|sass)$/,
         use: [
           {
-            loader: 'style-loader',
+            loader: 'typings-for-css-modules-loader',
           },
           {
-            loader: '@teamsupercell/typings-for-css-modules-loader',
-          },
-          {
-            loader: 'css-loader',
+            loader: 'typings-for-css-modules-loader',
             options: {
               modules: {
                 localIdentName: '[name]__[local]__[hash:base64:5]',

@@ -44,7 +44,6 @@ main.js
 main.js.map
 
 .idea
-.vscode
 npm-debug.log.*
 *.css.d.ts
 *.sass.d.ts
